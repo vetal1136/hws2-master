@@ -1,9 +1,13 @@
 .select {
+    min-width: 165px;
+    height: 25px;
 }
 
 .select:focus {
+    outline-color: #0066ca;
 }
 
 
 .option:hover {
+
 }
