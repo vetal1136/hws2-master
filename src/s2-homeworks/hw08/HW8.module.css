@@ -25,11 +25,25 @@
     padding-bottom: 74px;
 }
 
-.thead {
-}
-
 .nameCol {
+    min-width: 303px;
+    font-weight: 600;
+    padding-left: 16px;
+
+
 }
 
 .ageCol {
+    min-width: 303px;
+    font-weight: 600;
+}
+
+.name {
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 16px;
+}
+
+.age {
+    border-bottom: 1px solid #E5E5E5;
+    font-weight: 500;
 }
