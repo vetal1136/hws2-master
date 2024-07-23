@@ -1,16 +1,28 @@
 .item {
+    font-weight: 300;
+    line-height: 3;
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 16px;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    border-collapse: collapse;
 }
 
 .buttonsContainer {
+    align-self: flex-end;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
 }
 
 .container {
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 74px;
 }
 
 .thead {
